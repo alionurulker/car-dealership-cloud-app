@@ -1,0 +1,11 @@
+  applications:
+  - name: bestcardealership
+    routes:
+      - route: bestcardealership.eu-gb.mybluemix.net
+    memory: 128M
+    buildpack: python_buildpack
+  - name: bestcardealership-nginx
+    routes:
+      - route: bestcardealership.eu-gb.mybluemix.net/static
+    memory: 128M
+    buildpack: staticfile_buildpack
