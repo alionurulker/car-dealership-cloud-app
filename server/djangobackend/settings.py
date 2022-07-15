@@ -27,8 +27,7 @@ DEBUG = True
 
 APPEND_SLASH = True
 
-ALLOWED_HOSTS = ["bestcardealership.eu-gb.mybluemix.net"]
-#ALLOWED_HOSTS = ["localhost"]
+ALLOWED_HOSTS = ['localhost', 'localhost:8000', 'bestcardealership.eu-gb.mybluemix.net', 'https://aliulker-8000.theiadocker-2-labs-prod-theiak8s-4-tor01.proxy.cognitiveclass.ai']
 
 # Application definition
 
@@ -90,7 +89,7 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql_psycopg2',
         'NAME': 'postgres',
         'USER': 'postgres',
-        'PASSWORD': 'MjkxOTEtYWxpdWxr',
+        'PASSWORD': 'MjQxMy1hbGl1bGtl',
         'HOST': 'localhost',
         'PORT': '5432',
     }
