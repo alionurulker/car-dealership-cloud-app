@@ -36,4 +36,4 @@ You must complete all the labs to successfully complete the project.
 2. Deploy your application
 
 https://bestcardealership.eu-gb.mybluemix.net/djangoapp/
-You will see the result of project on this link.
+You will see the result of the project on this link.
